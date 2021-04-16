@@ -8,8 +8,8 @@ public class JokesService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokesService() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public JokesService(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     public String getAJoke() {
